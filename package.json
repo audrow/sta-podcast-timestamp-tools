@@ -1,7 +1,7 @@
 {
-  "name": "node-ts-template",
-  "version": "0.0.1",
-  "description": "A starting point for NodeJS Typescript projects.",
+  "name": "@sta-podcast/timestamp-tools",
+  "version": "1.0.0",
+  "description": "Convenient functions for working with timestamps.",
   "main": "dist/cjs/index.js",
   "types": "dist/types/index.d.ts",
   "module": "dist/esm/index.js",
@@ -31,19 +31,20 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/audrow/node-js-template"
+    "url": "https://github.com/audrow/sta-podcast-timestamp-tools"
   },
   "keywords": [
     "nodejs",
-    "template",
+    "timestamp",
     "typescript"
   ],
-  "homepage": "https://github.com/audrow/node-js-template",
+  "homepage": "https://github.com/audrow/sta-podcast-timestamp-tools",
   "bugs": {
     "mail": "audrow@hey.com",
-    "url": "https://github.com/audrow/node-js-template/issues"
+    "url": "https://github.com/audrow/sta-podcast-timestamp-tools/issues"
   },
   "devDependencies": {
+    "@sta-podcast/types": "^1.0.7",
     "@tsconfig/node16": "^1.0.2",
     "@types/jest": "^27.4.0",
     "@types/proper-url-join": "^2.1.1",
